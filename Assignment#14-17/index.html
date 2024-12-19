@@ -1,0 +1,309 @@
+
+
+// ...............Assignment	#	14-17................
+                    //   JAVASCRIPT
+
+
+
+// Q1
+
+// var arr = []
+
+
+// Q2
+
+// var arr = new Array(1,2,3,4,5,);
+
+// Q3
+
+// var arr = ["zain "]
+// document.write(arr)
+
+// Q4
+
+// var number = [12,3,4,5,6]
+
+// Q5
+
+// var bolean = [true,false ,true,false]
+
+// Q6
+
+// var arr = ["zain", 13, true]
+// document.write(arr)
+
+// let mixedArray = [42, "Hello", true, {name: "zain"}, null];
+// document.write(mixedArray)
+
+// Q7
+
+// var arr = ["zong","jazz","telenor","ufone"]
+// document.write(arr)
+
+
+// Q8
+// let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// let output = ""; // Initialize an empty string to hold the output
+
+// for(var i = 0 ; i < qualifications.length; i++){
+//     output += (i + 1) + " )"+ qualifications[i] + "<br>"
+
+// }
+
+
+// document.querySelector("#zain").innerHTML=  output;
+
+
+
+// Q9
+
+
+
+// var movie = ["english","urdu","japnies","franch","zain"];
+// movie.splice (1,1,"ALI"    .toUpperCase()   );
+// movie.splice (2,1,"shekhani"    .toUpperCase()   );
+//  var output = "";
+
+//  for(var i = 0; i < movie.length  ; i++){
+//     output += (i+1) +") "+ movie[i]+   "<br>"
+    
+//  }
+ 
+//  output += "<h3>length of array: " + movie.length ;"<h3>"
+
+// document.querySelector("#zain").innerHTML = output;
+
+
+
+// Q10
+
+
+
+
+// var favouriteCars = ["Toyota", "Honda", "Ford", "Tesla", "BMW"]
+
+
+// var firstindex= 0;
+
+// var caratthefirstindex = favouriteCars[firstindex];
+
+// var lastindex = favouriteCars.length-1;
+// var caratthelastindexof = favouriteCars[lastindex]
+
+// document.write(`
+//              ${favouriteCars}<br><br>
+
+//              first index of : ${firstindex}<br>
+//              car at first indes of array: ${caratthefirstindex}<br>
+//              last index of the array: ${lastindex}<br>
+//              car at last index of the array : ${caratthelastindexof}
+
+    
+    
+    
+    
+    
+    
+//     `)
+
+
+
+
+// // Q11
+// var names =["zain","ali","shekhani"]
+// var scores = [300,400,500]
+// var total =500;
+// var output= "";
+
+// for(var i= 0; i < names.length; i++){
+// var percentage = (scores[i]/ total)*100;
+
+// output += `score of ${names[i]} is ${scores[i]}.percentage : ${percentage.toFixed(2)} % <br>  `;
+
+
+
+
+// }
+
+// document.write(output);
+
+
+// Q12
+
+// // Initialize an array with color names
+// var colors = ["Red", "Green", "Blue"];
+// document.write("Initial Colors: " + colors.join(", ") + "<br><br>");
+
+// // a. Add a color to the beginning
+// var colorToAddBeginning = prompt("Enter a color to add to the beginning:");
+// colors.unshift(colorToAddBeginning);
+// document.write("After adding to the beginning: " + colors.join(", ") + "<br><br>");
+
+// // b. Add a color to the end
+// var colorToAddEnd = prompt("Enter a color to add to the end:");
+// colors.push(colorToAddEnd);
+// document.write("After adding to the end: " + colors.join(", ") + "<br><br>");
+
+// // c. Add two more colors to the beginning
+// colors.unshift("Yellow", "Purple");
+// document.write("After adding two more colors to the beginning: " + colors.join(", ") + "<br><br>");
+
+// // d. Delete the first color
+// colors.shift();
+// document.write("After deleting the first color: " + colors.join(", ") + "<br><br>");
+
+// // e. Delete the last color
+// colors.pop();
+// document.write("After deleting the last color: " + colors.join(", ") + "<br><br>");
+
+// // f. Add a color at a specified index
+// var indexToAdd = parseInt(prompt("Enter the index to add a color:"));
+// var colorToAddAtIndex = prompt("Enter the color to add at index " + indexToAdd + ":");
+// colors.splice(indexToAdd, 0, colorToAddAtIndex);
+// document.write("After adding color at index " + indexToAdd + ": " + colors.join(", ") + "<br><br>");
+
+// // g. Delete colors from a specified index
+// var indexToDelete = parseInt(prompt("Enter the index from which to delete color(s):"));
+// var numColorsToDelete = parseInt(prompt("Enter the number of colors to delete:"));
+// colors.splice(indexToDelete, numColorsToDelete);
+// document.write("After deleting " + numColorsToDelete + " color(s) from index " + indexToDelete + ": " + colors.join(", ") + "<br><br>");
+
+
+// ye question just samaj lena is ka koi meaning nahi ha  Q12 ka 
+
+// Q13
+
+// // Initialize an array with student scores
+// var scores = [23,47,65,76,56,44,22,]
+
+// document.write(`orignal score : ${scores} <br>`)
+// scores.sort();
+// document.write(`accending order  ${scores.join()}      `)
+
+
+// Q14
+
+// var fruit = ["apple ","mango","bannana","stawbaray"]
+
+// document.write(`Fruits list :  <br>  ${fruit} <br><br>`)
+// fruit.sort();
+// document.write(`Ordered list fruits   : <br>  ${fruit.join()}`)
+
+// Q15
+
+
+// var city  = ["karachi","islamabad","lahore","karimabad","garden"]
+
+// var copy = city.slice(0,3)
+// document.write(`cityes list : <br> ${city} <br><br> `)
+// document.write(`selected city list : <br> ${copy.join()}`)
+
+
+
+// Q16
+
+// var arr = ["this,is, my,cat"];
+
+// document.write(`array  : <br>   ${arr}<br><br>`)
+
+// var result = arr[0].replace(/,/g, " ")
+// document.write(typeof("")+" :"+ `<br>  ${result.toUpperCase()}    ` )
+
+
+// Q17
+
+
+// var arr = ["mouse "," pointer " , " keyboard ","  printer "]
+// document.write(`Device :  <br> ${arr}   <br><br> `    )
+
+
+
+// var initiallength = arr.length;
+// for(var i= 0 ; i< initiallength; i++){
+//     document.write(`Out :  <br>    ${arr.shift()}  <br>  `)
+// }
+
+
+
+// Q18/// reverse statement ha ye 
+
+// var arr = ["mouse "," pointer " , " keyboard ","  printer "]
+// document.write(`Device :  <br> ${arr}   <br><br> `    )
+
+// arr.reverse();
+
+// var initiallength = arr.length;
+// for(var i= 0 ; i< initiallength; i++    ){
+//     document.write(`Out :  <br>     ${arr.shift()}   <br>  `)
+// }
+
+
+
+
+// Q19
+
+// // // Array of phone manufacturers
+// var manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// // Start the select dropdown menu
+// document.write("<label for='manufacturers'>Select a phone manufacturer:</label><br>");
+// document.write("<select id='manufacturers'>");
+
+// // Loop through each manufacturer and add it as an option in the dropdown
+// for (var i = 0; i < manufacturers.length; i++) {
+//     document.write("<option value=" + manufacturers[i] + ">" + manufacturers[i] + "</option>");
+// }
+
+// // Close the select dropdown menu
+// document.write("</select>");
+
+
+// // var zain = ["iphone","motorala","sony ","Q.mobile ","REALME"]
+
+// // document.write("<label for = ` zain  ` >  select a phone manufacture  :  </label> <br>")
+// // document.write("<select id = `zain` >");
+// // for(var i=0; i < zain.length; i++){
+// //     document.write("<option value=" +zain[i] +">"+ zain[i] + "</option>" )
+// // }
+// // document.write("</select>");
+
+
+// var zain = ["apple","nokia ","readme","realme"]
+
+// document.write("<label for = `zain` >  selected a manufacture phone : </label> <br> ")
+// document.write("<select id= `zain ` > "  )
+
+// for(var i = 0 ; i < zain.length ; i++){
+//     document.write("<option value=" +zain[i]+ ">" + zain[i] + "</option>"     )
+// }
+// document.write("</select>")
+
+
+
+
+// Q20
+
+
+
+
+
+
+
+// Initialize a multidimensional array representing the matrix
+// var arr = [
+
+//         [0,1,2,3],
+//         [1,0,1,2 ],
+//         [2,1,0,1]
+
+
+
+// ]
+
+
+// for(var a = 0; a < arr.length; a++){
+//     for(var b = 0; b < arr[a].length ; b++){
+//         document.write(arr[a][b]+ " ")
+//     }
+//     document.write("<br>")
+// }
